@@ -15,5 +15,36 @@ p {
   font-size: 14px;
   font-family: Arial
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-family: Arial;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial;
+  vertical-align: top;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td:first-child {
+  font-weight: bold;
+  width: 30%;
+  background-color: #eef2f6;
+  border-right: 1px solid #ddd;
+}
+
+tr:nth-child(even) td:not(:first-child) {
+  background-color: #fafafa;
+}
 
 
